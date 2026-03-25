@@ -232,19 +232,25 @@ a:visited {
   top: 0px;
 }
 #wrapper .lpbody .cv01 .cv {
-  width: calc(751 / 950 * 100%);
+  width: calc(767 / 950 * 100%);
   position: absolute;
-  left: 50%;
+  left: 51%;
   /* right: calc(35 / 950 * 100%); */
-  bottom: 2%;
+  top: 8%;
   translate: -50% 5%;
 }
-#wrapper .lpbody .cv02 .cv {
-  width: calc(751 / 950 * 100%);
+#wrapper .lpbody .cv02 .tel {
+  width: calc(181 / 950 * 100%);
   position: absolute;
-  left: 50%;
+  left: calc(20 / 950 * 100%);
+  top: 0px;
+}
+#wrapper .lpbody .cv02 .cv {
+  width: calc(767 / 950 * 100%);
+  position: absolute;
+  left: 51%;
   /* right: calc(35 / 950 * 100%); */
-  bottom: 6%;
+  top: 0;
   translate: -50% 5%;
 }
 #wrapper .lpbody .bg {
@@ -475,7 +481,7 @@ a:visited {
 }
 
 .fv_07 span,
-.cont05_10 span {
+.cont05_15 span {
   width: calc(740 / 950 * 100%);
   margin-inline: calc( ((950 - 740) / 2) / 950 * 100%);
 }
