@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>味の素(株)からのお願い＼かんたん1分！4問回答／運動に関するアンケート</title>
+    <meta name="description" content="" />
+    <meta name="robots" content="index,follow" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/slick.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.inview.js"></script> -->
+    <script type="text/javascript" src="js/common.js"></script>
+  </head>
+  <body id="home">
+    <article id="container">
+      <div id="wrapper">
+        <div class="lp">
+          <div class="lpbody">
+
+            <div class="bg">
+              <section class="fv">
+                <p>
+                  <picture>
+                    <!-- <source srcset="img/fv_01.webp" type="image/webp"> -->
+                    <img src="img/fv_01.jpg" alt="">
+                  </picture>
+                </p>
+                <!-- <p>
+                  <picture>
+                    <source srcset="img/fv_02.webp" type="image/webp">
+                    <img src="img/fv_02.jpg" alt="">
+                  </picture>
+                </p> -->
+                <p>
+                  <picture>
+                    <source srcset="img/fv_03.webp" type="image/webp">
+                    <img src="img/fv_03.jpg" alt="">
+                  </picture>
+                </p>
+              </section>
+
+              <section class="cont01">
+                <div class="survey survey-01">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont01_01.webp" type="image/webp">
+                      <img src="img/cont01_01.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont01_02 cont_text">
+                    <picture>
+                      <source srcset="img/cont01_02.webp" type="image/webp">
+                      <img src="img/cont01_02.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <div class="survey-btn">
+                        <label for="survey-btn01"><input id="survey-btn01" type="radio" name="survey-btn-01" value="はい">はい</label>
+                        <label for="survey-btn02"><input id="survey-btn02" type="radio" name="survey-btn-01" value="いいえ">いいえ</label>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <div class="survey survey-02">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont01_03.webp" type="image/webp">
+                      <img src="img/cont01_03.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont01_04 cont_text">
+                    <picture>
+                      <source srcset="img/cont01_04.webp" type="image/webp">
+                      <img src="img/cont01_04.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <div class="survey-btn">
+                        <div class="flex-box">
+                          <label for="survey-btn03"><input id="survey-btn03" type="radio" name="survey-btn-02" value="40代">40代</label>
+                          <label for="survey-btn04"><input id="survey-btn04" type="radio" name="survey-btn-02" value="50代">50代</label>
+                        </div>
+                        <div class="flex-box">
+                          <label for="survey-btn05"><input id="survey-btn05" type="radio" name="survey-btn-02" value="60代">60代</label>
+                          <label for="survey-btn06"><input id="survey-btn06" type="radio" name="survey-btn-02" value="70代">70代</label>
+                        </div>
+                        <label for="survey-btn07"><input id="survey-btn07" type="radio" name="survey-btn-02" value="その他">その他</label>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <div class="survey survey-03">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont01_05.webp" type="image/webp">
+                      <img src="img/cont01_05.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont01_06 cont_text">
+                    <picture>
+                      <source srcset="img/cont01_06.webp" type="image/webp">
+                      <img src="img/cont01_06.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <div class="survey-btn">
+                        <label for="survey-btn08"><input id="survey-btn08" type="radio" name="survey-btn-03" value="階段を上がる時">階段を上がる時</label>
+                        <label for="survey-btn09"><input id="survey-btn09" type="radio" name="survey-btn-03" value="歩いた後">歩いた後</label>
+                        <label for="survey-btn10"><input id="survey-btn10" type="radio" name="survey-btn-03" value="運動の時">運動の時</label>
+                        <label for="survey-btn11"><input id="survey-btn11" type="radio" name="survey-btn-03" value="電車で踏ん張れない時">電車で踏ん張れない時</label>
+                        <label for="survey-btn12"><input id="survey-btn12" type="radio" name="survey-btn-03" value="100年を超えるアミノ酸研究を続けてきた味の素(株)が提供する">誰かにおいて<br>いかれそうになった時</label>
+                        <label for="survey-btn13"><input id="survey-btn13" type="radio" name="survey-btn-03" value="その他">その他</label>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+                <div class="survey survey-04">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont01_07.webp" type="image/webp">
+                      <img src="img/cont01_07.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont01_08 cont_text">
+                    <picture>
+                      <source srcset="img/cont01_08.webp" type="image/webp">
+                      <img src="img/cont01_08.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <div class="survey-btn">
+                        <label for="survey-btn14"><input id="survey-btn14" type="radio" name="survey-btn-04" value="機能性表示食品なこと">機能性表示食品なこと</label>
+                        <label for="survey-btn15"><input id="survey-btn15" type="radio" name="survey-btn-04" value="運動と一緒にロイシン40%配合必須アミノ酸摂取することで「筋肉をつくる力」をサポートし「歩く力の向上」に役立つ">運動と一緒にロイシン40%<br>配合必須アミノ酸摂取する<br>ことで「筋肉をつくる力」を<br>サポートし「歩く力の向上」<br>に役立つ</label>
+                        <label for="survey-btn16"><input id="survey-btn16" type="radio" name="survey-btn-04" value="継続意向度が90％">継続意向度が90％※</label>
+                        <label for="survey-btn17"><input id="survey-btn17" type="radio" name="survey-btn-04" value="味の素(株)が作った歩行サポートサプリメント">味の素(株)が作った歩行サポートサプリメント</label>
+                        <label for="survey-btn18"><input id="survey-btn18" type="radio" name="survey-btn-04" value="100年を超えるアミノ酸研究を続けてきた味の素(株)が提供する「アミノバイタル」シリーズ製品">100年を超えるアミノ酸研究を続けてきた味の素(株)が提供する「アミノバイタル」シリーズ製品</label>
+                        <label for="survey-btn19"><input id="survey-btn19" type="radio" name="survey-btn-04" value="爽やかなリンゴ味＆顆粒タイプなので飲みやすい">爽やかなリンゴ味＆<br>顆粒タイプなので飲みやすい</label>
+                        <label for="survey-btn20"><input id="survey-btn20" type="radio" name="survey-btn-04" value="個包装スティックなので持ち歩きやすい">個包装スティックなので<br>持ち歩きやすい</label>
+                      </div>
+                    </span>
+                  </div>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont01_09.webp" type="image/webp">
+                      <img src="img/cont01_09.jpg" alt="">
+                    </picture>
+                  </p>
+                </div>
+              </section>
+              <!-- /.cont01 -->
+
+              <div class="answer-block">
+                <section class="cont02">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont02_01.webp" type="image/webp">
+                      <img src="img/cont02_01.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont02_02.webp" type="image/webp">
+                      <img src="img/cont02_02.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont02_03.webp" type="image/webp">
+                      <img src="img/cont02_03.jpg" alt="">
+                    </picture>
+                  </p>
+                  <!--cvボタン-->
+                  <div class="cv01">
+                    <picture>
+                      <source srcset="img/cont02_04.webp" type="image/webp">
+                      <img src="img/cont02_04.jpg" alt="">
+                    </picture>
+                    <a href="https://direct.ajinomoto.co.jp/cart/" class="cv">
+                      <span class="slide-item slide-item1">
+                        <picture>
+                          <source srcset="img/btn_cv_01.webp" type="image/webp">
+                          <img src="img/btn_cv_01.png" alt="">
+                        </picture>
+                      </span>
+                    </a>
+                  </div>
+                  <!--/cvボタン-->
+                  <p>
+                    <picture>
+                      <source srcset="img/cont02_05.webp" type="image/webp">
+                      <img src="img/cont02_05.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont02_06.webp" type="image/webp">
+                      <img src="img/cont02_06.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont02_07 cont_text">
+                    <picture>
+                      <source srcset="img/cont02_07.webp" type="image/webp">
+                      <img src="img/cont02_07.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <ul>
+                        <li>●本品は、特定保健用食品と異なり、機能性及び安全性について国による評価を受けたものではありません。届け出られた科学的根拠等の情報は消費者庁のウェブサイトで確認できます。</li>
+                        <li>●食生活は、主食、主菜、副菜を基本に、食事のバランスを。</li>
+                        <li>●本品は、疾病の診断、治療、予防を目的としたものではありません。</li>
+                      </ul>
+                      <p>
+                        ※1：通常価格は味の素ダイレクト（株）オンラインショップでキャンペーン価格以外で購入した場合の価格となり、定期お届けコースの割引額（率）はその価格を元にしています。<br>
+                        ※2：味の素（株）調べ（2015年12月）旧商品「アミノエール®︎」購入者への実感アンケート調査（N-294、「飲み続けたい」「どちらかというと飲み続けたい」と答えた人の合計）累計販売数※「定期コース」に継続回数の制約はございません。<a href="https://direct.ajinomoto.co.jp/cart/" target="_blank">今すぐお得に定期コースに申し込む</a>
+                      </p>
+                      <ul>
+                        <li>■毎月お届け定期コースについて</li>
+                        <li>●毎月お届け定期コースは、30日ごとに自動で商品をお届けするコースです。継続回数の制約はございません。</li>
+                        <li>●定期購入の2回目以降は10%OFFの4,860円（税込）、送料100円（税込）を頂戴します。</li>
+                        <li>●送料の詳細は<a href="https://direct.ajinomoto.co.jp/userguide/#postage" target="_blank">こちら</a>をご確認ください。(お支払い方法やご注文個数などにより配送方法が変更となる場合があります。)</li>
+                        <li>●停止をご希望の場合は、商品お届け時に同封しております「お届け明細」に記載されている【お届け予定日】の10日前までにお電話（味の素ダイレクト（株）お客様係：フリーダイヤル0120-324-324）または<a href="https://direct.ajinomoto.co.jp/formmail/formmail.html/" target="_blank">お問い合わせフォーム</a>からご連絡ください。</li>
+                        <li>●お届けはポストへの投函となります。但し、(a)代金引換、(b)お届け日・お届け時間帯の指定、(c)ご注文ご本人以外へのお届けをご希望の場合、宅配便でのお届けとなり、別途送料500円(税込)をご負担いただきます。</li>
+                      </ul>
+                    </span>
+                  </div>
+                </section>
+                <!-- /.cont02 -->
+
+                <section class="cont03">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_01.webp" type="image/webp">
+                      <img src="img/cont03_01.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_02.webp" type="image/webp">
+                      <img src="img/cont03_02.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_03.webp" type="image/webp">
+                      <img src="img/cont03_03.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_04.webp" type="image/webp">
+                      <img src="img/cont03_04.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_05.webp" type="image/webp">
+                      <img src="img/cont03_05.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont03_06.webp" type="image/webp">
+                      <img src="img/cont03_06.jpg" alt="">
+                    </picture>
+                  </p>
+                </section>
+                <!-- /.cont03 -->
+
+                <section class="cont04">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont04_01.webp" type="image/webp">
+                      <img src="img/cont04_01.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont04_02.webp" type="image/webp">
+                      <img src="img/cont04_02.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont04_02_02.webp" type="image/webp">
+                      <img src="img/cont04_02_02.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont04_03.webp" type="image/webp">
+                      <img src="img/cont04_03.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont04_04 cont_text">
+                    <picture>
+                      <source srcset="img/cont04_04.webp" type="image/webp">
+                      <img src="img/cont04_04.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <div class="slider">
+                        <div class="slider-item">
+                          <picture>
+                            <source srcset="img/slide_01.webp" type="image/webp">
+                            <img src="img/slide_01.png" alt="" width="896" height="753">
+                          </picture>
+                        </div>
+                        <div class="slider-item">
+                          <picture>
+                            <source srcset="img/slide_02.webp" type="image/webp">
+                            <img src="img/slide_02.png" alt="" width="897" height="779">
+                          </picture>
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+
+                  <p>
+                    <picture>
+                      <source srcset="img/cont04_05.webp" type="image/webp">
+                      <img src="img/cont04_05.jpg" alt="">
+                    </picture>
+                  </p>
+                </section>
+                <!-- /cont04 -->
+
+                <section class="cont05">
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_01.webp" type="image/webp">
+                      <img src="img/cont05_01.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_02.webp" type="image/webp">
+                      <img src="img/cont05_02.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_03.webp" type="image/webp">
+                      <img src="img/cont05_03.jpg" alt="">
+                    </picture>
+                  </p>
+                  <!--cvボタン-->
+                  <div class="cv01">
+                    <picture>
+                      <source srcset="img/cont05_04.webp" type="image/webp">
+                      <img src="img/cont05_04.jpg" alt="">
+                    </picture>
+                    <a href="https://direct.ajinomoto.co.jp/cart/" target="_blank" class="cv">
+                      <span class="slide-item slide-item1">
+                        <picture>
+                          <source srcset="img/btn_cv_01.webp" type="image/webp">
+                          <img src="img/btn_cv_01.png" alt="">
+                        </picture>
+                      </span>
+                    </a>
+                  </div>
+                  <!--/cvボタン-->
+
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_05.webp" type="image/webp">
+                      <img src="img/cont05_05.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_06.webp" type="image/webp">
+                      <img src="img/cont05_06.jpg" alt="">
+                    </picture>
+                  </p>
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_07.webp" type="image/webp">
+                      <img src="img/cont05_07.jpg" alt="">
+                    </picture>
+                  </p>
+                  <!--cvボタン-->
+                  <div class="cv02">
+                    <picture>
+                      <source srcset="img/cont05_08.webp" type="image/webp">
+                      <img src="img/cont05_08.jpg" alt="">
+                    </picture>
+                    <a href="https://direct.ajinomoto.co.jp/cart/" target="_blank" class="cv">
+                      <span class="slide-item slide-item1">
+                        <picture>
+                          <source srcset="img/btn_cv_03.webp" type="image/webp">
+                          <img src="img/btn_cv_03.png" alt="">
+                        </picture>
+                      </span>
+                    </a>
+                  </div>
+                  <!--/cvボタン-->
+                  <p>
+                    <picture>
+                      <source srcset="img/cont05_09.webp" type="image/webp">
+                      <img src="img/cont05_09.jpg" alt="">
+                    </picture>
+                  </p>
+                  <div class="cont05_10 cont_text">
+                    <picture>
+                      <source srcset="img/cont05_10.webp" type="image/webp">
+                      <img src="img/cont05_10.jpg" alt="">
+                    </picture>
+                    <span class="slide-item slide-item1">
+                      <ul>
+                        <li>●本品は、特定保健用食品と異なり、機能性及び安全性について国による評価を受けたものではありません。届け出られた科学的根拠等の情報は消費者庁のウェブサイトで確認できます。</li>
+                        <li>●食生活は、主食、主菜、副菜を基本に、食事のバランスを。</li>
+                        <li>●本品は、疾病の診断、治療、予防を目的としたものではありません。</li>
+                      </ul>
+                      <p>
+                        ※1:2020年6月〜2020年7月の期間に「アミノエール®︎」本製品をはじめて購入した方のうち、定期お届けコースを利用したお客様の割合。(味の素(株)調べ)<br>
+                        ※2：通常価格は味の素ダイレクト（株）オンラインショップでキャンペーン価格以外で購入した場合の価格となり、定期お届けコースの割引額（率）はその価格を元にしています。<br>
+                        ※3：味の素（株）調べ（2015年12月）旧商品「アミノエール®︎」購入者への実感アンケート調査（N-294、「飲み続けたい」「どちらかというと飲み続けたい」と答えた人の合計）累計販売数※「定期コース」に継続回数の制約はございません。<a href="https://direct.ajinomoto.co.jp/cart/" target="_blank">今すぐお得に定期コースに申し込む</a>
+                      </p>
+                      <ul>
+                        <li>■毎月お届け定期コースについて</li>
+                        <li>●毎月お届け定期コースは、30日ごとに自動で商品をお届けするコースです。継続回数の制約はございません。</li>
+                        <li>●定期購入の2回目以降は10%OFFの4,860円（税込）、送料100円（税込）を頂戴します。</li>
+                        <li>●送料の詳細は<a href="https://direct.ajinomoto.co.jp/userguide/#postage" target="_blank">こちら</a>をご確認ください。(お支払い方法やご注文個数などにより配送方法が変更となる場合があります。)</li>
+                        <li>●停止をご希望の場合は、商品お届け時に同封しております「お届け明細」に記載されている【お届け予定日】の10日前までにお電話（味の素ダイレクト（株）お客様係：フリーダイヤル0120-324-324）または<a href="https://direct.ajinomoto.co.jp/formmail/formmail.html/" target="_blank">お問い合わせフォーム</a>からご連絡ください。</li>
+                        <li>●お届けはポストへの投函となります。但し、(a)代金引換、(b)お届け日・お届け時間帯の指定、(c)ご注文ご本人以外へのお届けをご希望の場合、宅配便でのお届けとなり、別途送料500円(税込)をご負担いただきます。</li>
+                      </ul>
+                    </span>
+                  </div>
+                </section>
+                <!-- /cont05 -->
+
+                <section class="cont06 section_faq">
+                  <div class="faq">
+                    <dl class="slide-item slide-item1">
+                      <dt>
+                        <a href="#faq01">
+                          <i class="icon icon-q"><img src="img/ico_deliver.svg" alt=""></i>
+                          <p>商品のお届けについて</p>
+                          <i class="icon icon-btn"></i>
+                        </a>
+                      </dt>
+                      <dd id="faq01">
+                        <div class="imt cont_text">
+                          <p>
+                            ●商品はご注文受付後、3～5日前後でお届けします。<br>
+                            ※地域と配送事情、在庫状況により、多少遅れる場合もございます。<br>
+                            ●注文日の5日後より指定可能なお届け希望日時も承っております。
+                          </p>
+                        </div>
+                      </dd>
+                    </dl>
+                    <dl class="slide-item slide-item1">
+                      <dt>
+                        <a href="#faq02">
+                          <i class="icon icon-q"><img src="img/ico_pay.svg" alt=""></i>
+                          <p>支払い方法について</p>
+                          <i class="icon icon-btn"></i>
+                        </a>
+                      </dt>
+                      <dd id="faq02">
+                        <div class="imt cont_text">
+                          <p>
+                            以下のお支払い方法からお選びいただけます。<br>
+                            ・クレジットカード<br>
+                            ・Amazon Pay <br>
+                            ・d払い<br>
+                            ・後払い（コンビニエンスストア、ゆうちょ銀行・郵便局、アプリ決済サービス）<br>
+                            ・代金引換
+                          </p>
+                        </div>
+                      </dd>
+                    </dl>
+                    <dl class="slide-item slide-item1">
+                      <dt>
+                        <a href="#faq03">
+                          <i class="icon icon-q"><img src="img/ico_change.svg" alt=""></i>
+                          <p>返品・交換について</p>
+                          <i class="icon icon-btn"></i>
+                        </a>
+                      </dt>
+                      <dd id="faq03">
+                        <div class="imt cont_text">
+                          <p>返品・交換は商品到着後8日以内に「味の素ダイレクト（株）お客様係」まで、お電話にてご連絡ください。</p>
+                          <a href="tel:0120-324-324">
+                            <picture>
+                              <source srcset="img/btn_cv_02.png">
+                              <img src="img/btn_cv_02.png" alt="">
+                            </picture>
+                          </a>
+                          <p>通話料無料/携帯電話からもご利用いただけます。</p>
+                        </div>
+                      </dd>
+                    </dl>
+                    <dl class="slide-item slide-item1">
+                      <dt>
+                        <a href="#faq04">
+                          <i class="icon icon-q"><img src="img/ico_tel.svg" alt=""></i>
+                          <p>お問い合わせ・<br>
+                            お電話でのご注文について</p>
+                          <i class="icon icon-btn"></i>
+                        </a>
+                      </dt>
+                      <dd id="faq04">
+                        <div class="imt cont_text">
+                          <p>ご注文や商品についてご不明な点がございましたら、お気軽にお問い合わせください。<a href="tel:0120-324-324">お電話でのご注文もこちらで承ります。</a></p>
+                          <p class="title">お電話</p>
+                          <a href="tel:0120-324-324">
+                            <picture>
+                              <source srcset="img/btn_cv_02.png">
+                              <img src="img/btn_cv_02.png" alt="">
+                            </picture>
+                          </a>
+                          <p class="title">インターネット</p>
+                          <p><a href="https://direct.ajinomoto.co.jp/formmail/formmail.html/" target="_blank">https://direct.ajinomoto.co.jp/formmail/formmail.html/</a></p>
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                </section>
+                <!-- /cont09.section_faq -->
+
+                <section class="cont_footer">
+                  <ul class="footer_nav">
+                    <li><a href="https://www.ajinomoto.co.jp/" target="_blank">会社概要</a></li>
+                    <li><a href="https://www.ajinomoto.co.jp/privacy/"target="_blank">プライバシーポリシー</a></li>
+                    <li><a href="https://direct.ajinomoto.co.jp/law/"target="_blank">特定商取引法に基づく表示</a></li>
+                  </ul>
+                </section>
+                <!-- /cont_footer -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
