@@ -232,9 +232,9 @@ a:visited {
   top: 0px;
 }
 #wrapper .lpbody .cv01 .cv {
-  width: calc(767 / 950 * 100%);
+  width: calc(751 / 950 * 100%);
   position: absolute;
-  left: 51%;
+  left: 50%;
   /* right: calc(35 / 950 * 100%); */
   top: 8%;
   translate: -50% 5%;
@@ -246,9 +246,9 @@ a:visited {
   top: 0px;
 }
 #wrapper .lpbody .cv02 .cv {
-  width: calc(767 / 950 * 100%);
+  width: calc(751 / 950 * 100%);
   position: absolute;
-  left: 51%;
+  left: 50%;
   /* right: calc(35 / 950 * 100%); */
   top: 0;
   translate: -50% 5%;
