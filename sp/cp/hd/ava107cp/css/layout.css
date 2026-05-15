@@ -446,6 +446,9 @@ a:visited {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+.cont_text p > a {
+  display: block !important;
+}
 .cont_text label {
   box-sizing: border-box;
   display: block grid;

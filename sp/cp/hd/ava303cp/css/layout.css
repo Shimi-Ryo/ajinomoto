@@ -360,6 +360,9 @@ a:visited {
   text-decoration: underline;
   color: #dc0027;
 }
+.cont_text p > a {
+  display: block !important;
+}
 .cont_text label {
   box-sizing: border-box;
   display: block grid;
