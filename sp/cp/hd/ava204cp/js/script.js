@@ -26,3 +26,29 @@
   });
 };
 animationObserve('.io', '30% 0px -30% 0px', true);
+
+const videos = document.querySelectorAll('.js-lazy-video');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+
+    const video = entry.target;
+    const source = document.createElement('source');
+
+    source.src = video.dataset.src;
+    source.type = 'video/mp4';
+
+    video.appendChild(source);
+    video.load();
+
+    video.addEventListener('canplay', () => {
+      video.play();
+    }, { once: true });
+
+    observer.unobserve(video);
+  });
+}, {
+  rootMargin: '700px 0px'
+});
+
+videos.forEach((video) => observer.observe(video));
