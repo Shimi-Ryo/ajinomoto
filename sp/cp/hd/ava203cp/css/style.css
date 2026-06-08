@@ -420,6 +420,37 @@ main .content_body .faq-answer span {
 /* ---------------------------------------------
  アニメーション
 --------------------------------------------- */
+main .content_body .anime_04 {
+  width: min(147 / 750 * 100vw, 147px);
+  position: absolute;
+  top: 25.5%;
+  left: 26%;
+}
+main .content_body .anime_05 {
+  width: min(174 / 750 * 100vw, 174px);
+  position: absolute;
+  top: 28%;
+  right: 25.5%;
+}
+main .content_body .anime_06 {
+  width: min(86 / 750 * 100vw, 86px);
+  position: absolute;
+  top: 41%;
+  right: 31.5%;
+  z-index: 1;
+}
+main .content_body .anime_07 {
+  width: min(174 / 750 * 100vw, 174px);
+  position: absolute;
+  top: 44%;
+  right: 25.5%;
+}
+main .content_body .anime_08 {
+  width: min(86 / 750 * 100vw, 86px);
+  position: absolute;
+  top: 57.5%;
+  right: 31.5%;
+}
 main .content_body .anime_01 {
   width: min(272 / 750 * 100vw, 272px);
   position: absolute;
@@ -530,9 +561,36 @@ main .content_body .io_circle_02.is_active {
 -------------------- */
 main .content_body .io_fadeIn {
   opacity: 0;
-  transition-delay: 2.5s !important;
 }
-
 main .content_body .io_fadeIn.is_active {
   opacity: 1;
+}
+/* fade-down
+-------------------- */
+main .content_body .io_fadeDown {
+  opacity: 0;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+main .content_body .io_fadeDown.is_active {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+/* delay
+-------------------- */
+main .content_body .delay_50 {
+  transition-delay: 0.5s !important;
+}
+main .content_body .delay_100 {
+  transition-delay: 1.0s !important;
+}
+main .content_body .delay_150 {
+  transition-delay: 1.5s !important;
+}
+main .content_body .delay_200 {
+  transition-delay: 2.0s !important;
+}
+main .content_body .delay_250 {
+  transition-delay: 2.5s !important;
 }
