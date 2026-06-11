@@ -188,6 +188,12 @@ main .content_body .video_05 {
 main .content_body .video_06 {
   top: 15%;
 }
+main .content_body .item {
+  position: absolute;
+  width: min(270 / 750 * 100vw, 270px);
+  top: 65.5%;
+  left: 3%;
+}
 main .content_body .btn {
   position: absolute;
   top: -38%;
@@ -416,7 +422,6 @@ main .content_body .faq-answer span {
   color: #888;
   display: block;
 }
-
 /* ---------------------------------------------
  アニメーション
 --------------------------------------------- */
