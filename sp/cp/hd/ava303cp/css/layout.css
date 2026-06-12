@@ -326,6 +326,15 @@ a:visited {
 .cont_text {
   position: relative;
 }
+.cont_text span.font_bold {
+  font-weight: bold;
+  position: static !important;
+  margin: 0 !important;
+}
+.cont_text p > a.text_blue {
+  color: #3E73B9 !important;
+  display: inline-block !important;
+}
 .cont_text .slide-item {
   box-sizing: border-box;
 }
