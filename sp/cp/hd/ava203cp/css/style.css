@@ -354,6 +354,7 @@ main .content_body summary {
   list-style: none;
   border-radius: 15px;
   border: min(4 / 750 * 100vw, 4px) solid #0071b8;
+  user-select: none;
 }
 main .content_body summary::before {
   content: "Q";
@@ -403,6 +404,7 @@ main .content_body .faq-answer {
   animation-delay: .5s;
   transition-property: transform;
   border-radius: 0 0 15px 15px;
+  user-select: none;
 }
 main .content_body .faq-answer::before {
   content: "A";
