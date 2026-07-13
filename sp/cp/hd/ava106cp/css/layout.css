@@ -367,6 +367,21 @@ a:visited {
   color: revert;
   font-size: min(calc(18/950*100*1vw),18px);
 }
+#wrapper .lpbody .bg .cont07 .link {
+  position: relative;
+}
+#wrapper .lpbody .bg .cont07 .link .text {
+  position: absolute;
+  top: 49.5%;
+  left: 36.5%;
+  width: auto;
+}
+#wrapper .lpbody .bg .cont07 .link .text a {
+  font-size: min(calc(25/950*100*1vw),25px);
+  color: #3E73B9;
+  display: inline-block;
+  text-decoration: underline;
+}
 .lpbody p {
   position: relative;
   top: 0;
