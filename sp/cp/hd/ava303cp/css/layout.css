@@ -198,6 +198,21 @@ a:visited {
   top: 5%;
   translate: calc(-50% - (12 / 950 * 100%)) 0;
 }
+#wrapper .lpbody .bg .fv .link {
+  position: relative;
+}
+#wrapper .lpbody .bg .fv .link .text {
+  position: absolute;
+  top: 52.5%;
+  left: 12.5%;
+  width: auto;
+}
+#wrapper .lpbody .bg .fv .link .text a {
+  font-size: min(calc(24/950*100*1vw),24px);
+  color: #3E73B9;
+  display: inline-block;
+  text-decoration: underline;
+}
 #wrapper .lpbody .bg {
   position: relative;
   top: 0;
