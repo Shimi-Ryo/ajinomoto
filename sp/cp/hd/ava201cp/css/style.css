@@ -368,6 +368,26 @@ main .content_body details[open] .faq-answer {
   opacity: 1;
   transform: translateY(0px);
 }
+main .content_body .link_function {
+  position: relative;
+}
+main .content_body .link_function .text {
+  position: absolute;
+  top: 62%;
+  left: 7%;
+  line-height: 1;
+}
+@media (max-width: 580px) {
+  main .content_body .link_function .text {
+    left: 6%;
+  }
+}
+main .content_body .link_function .text a {
+  font-size: min(calc(14/580*100*1vw),15px);
+  color: #3E73B9;
+  display: block;
+  text-decoration: underline;
+}
 /* サイズ */
 main .content_body .font_19 {
   font-size: 19px;
